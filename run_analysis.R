@@ -1,7 +1,6 @@
 # run_analysis.R
 
-# Load packages needed by run_analysis.R
-library(plyr)
+# Load table package needed by run_analysis.R
 library(data.table)
 
 # Check to see if the current download directory exists - if not create the directory
@@ -38,9 +37,11 @@ features <- read.table("./UCI HAR Dataset/features.txt")
 colnames(features) <- c("feature_id", "feature_name")
 
 # Get the index of the means (33 of the 561 columns contain mean data)
+# NOTE: mean(): Mean value was defined in the features_info.txt
 mean_indices <- grep("\\-mean\\(\\)", features$feature_name)
 
 # Get the index of the standard deviations (33 of the 561 columns contain std data)
+# NOTE: std(): Standard deviation was defined in the features_info.txt
 standard_deviation_indices <- grep("\\-std\\(\\)", features$feature_name)
 
 # Combine mean and std indices (66 columns)
@@ -52,14 +53,8 @@ sorted_mean_standard_deviation_indices <- sort.int(mean_std_indices)
 # Filter the X_data to contain only the 66 features (33 mean and 33 std)
 X_data <- X_data[, sorted_mean_standard_deviation_indices]
 
-# Substitute 'mean()' for "Mean_Value" - according to features_info.txt
-mean_value <- gsub("mean\\(\\)", "Mean\\_Value", (features[sorted_mean_standard_deviation_indices, 2]))
-
-# Substitute 'std()' for "Standard_Deaviation" - according to features_info.txt
-m_and_s <- gsub("std\\(\\)", "Stardard_Deviation", mean_value)
-
 # Rename the X_data columns to the feature name
-colnames(X_data) <- c(m_and_s)
+colnames(X_data) <- (features[sorted_mean_standard_deviation_indices, 2])
 
 # Read in the activity file (6 activities relating to the y_data)
 activity <- read.table("./UCI HAR Dataset/activity_labels.txt")
