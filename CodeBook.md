@@ -59,12 +59,12 @@ mean(): Mean value
 std(): Standard deviation
 all other features ignored (e.g. fBodyBodyGyroJerkMag-meanFreq())
 Descriptive activity labels were substituted for activity column ids.
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+WALKING  
+WALKING_UPSTAIRS  
+WALKING_DOWNSTAIRS  
+SITTING  
+STANDING  
+LAYING  
 Subject column name was updated to 'Subject'.
 The subjects (1-30), Activities (6 Activities (eg. WALKING)), and data points (66 mean/std) were combined to create the initial tidy data set.
 Aggregate function was used to compute the averages of each varible for each activity and each subject. 
