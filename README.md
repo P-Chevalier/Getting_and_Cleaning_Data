@@ -1,6 +1,9 @@
-# How the script works:
-##run_analysis.R  
-  
+# How to run run_analysis.R
+## Download the UCI HAR Dataset into your current working directory.  
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+## source("run_analysis.R")
+
+# How the script works:  
 ## The run_analysis.R script performs the following steps:
 
 ####Load table package needed by run_analysis.R  
