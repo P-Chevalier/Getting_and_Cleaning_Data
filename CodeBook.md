@@ -87,400 +87,400 @@ Unique_Values: Six Levels
 Units: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING  
 
 ###Variable 3: Time_Body_Accelerometer_Mean.X  
-###The average of the means of accelerometer measurements of a body on the X axis.  
+####The average of the means of accelerometer measurements of a body on the X axis.  
 Variable Class: int  
 Unique_Values: Features are normalized and bounded within [-1,1]  
 Units: Gravitation Units 'G'  
 
 ###Variable 4: Time_Body_Accelerometer_Mean.Y  
-###The average of the means of accelerometer measurements of a body on the Y axis.  
+####The average of the means of accelerometer measurements of a body on the Y axis.  
 Variable Class: int  
 Unique_Values: Features are normalized and bounded within [-1,1]  
 Units: Gravitation Units 'G'  
 
 ###Variable 5: Time_Body_Accelerometer_Mean.Z  
-###The average of the means of accelerometer measurements of a body on the Z axis.  
+####The average of the means of accelerometer measurements of a body on the Z axis.  
 Variable Class: int  
 Unique_Values: Features are normalized and bounded within [-1,1]  
 Units: Gravitation Units 'G'  
 
 ###Variable 6: Time_Body_Accelerometer_Standard_Deviation.X  
-###The average of the standard deviations of accelerometer measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 7: Time_Body_Accelerometer_Standard_Deviation.Y
-###The average of the standard deviations of accelerometer measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 8: Time_Body_Accelerometer_Standard_Deviation.Z
-###The average of the standard deviations of accelerometer measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 9: Time_Gravity_Accelerometer_Mean.X
-###The average of the means of accelerometer measurements of a gravity measurement on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a gravity measurement on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 10: Time_Gravity_Accelerometer_Mean.Y
-###The average of the means of accelerometer measurements of a gravity measurement on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a gravity measurement on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 11: Time_Gravity_Accelerometer_Mean.Z
-###The average of the means of accelerometer measurements of a gravity measurement on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a gravity measurement on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 12: Time_Gravity_Accelerometer_Standard_Deviation.X
-###The average of the standard deviations of accelerometer measurements of a gravity measurement on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a gravity measurement on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 13: Time_Gravity_Accelerometer_Standard_Deviation.Y
-###The average of the standard deviations of accelerometer measurements of a gravity measurement on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a gravity measurement on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 14: Time_Gravity_Accelerometer_Standard_Deviation.Z
-###The average of the standard deviations of accelerometer measurements of a gravity measurement on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a gravity measurement on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 15: Time_Body_Accelerometer_Jerk_Mean.X
-###The average of the means of accelerometer measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 16: Time_Body_Accelerometer_Jerk_Mean.Y
-###The average of the means of accelerometer measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 17: Time_Body_Accelerometer_Jerk_Mean.Z
-###The average of the means of accelerometer measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 18: Time_Body_Accelerometer_Jerk_Standard_Deviation.X
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 19: Time_Body_Accelerometer_Jerk_Standard_Deviation.Y
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 20: Time_Body_Accelerometer_Jerk_Standard_Deviation.Z
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 21: Time_Body_Gyroscope_Mean.X
-###The average of the means of gyroscoptic measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 22: Time_Body_Gyroscope_Mean.Y
-###The average of the means of gyroscoptic measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 23: Time_Body_Gyroscope_Mean.Z
-###The average of the means of gyroscoptic measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 24: Time_Body_Gyroscope_Standard_Deviation.X
-###The average of the standard deviations of gyroscoptic measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 25: Time_Body_Gyroscope_Standard_Deviation.Y
-###The average of the standard deviations of gyroscoptic measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 26: Time_Body_Gyroscope_Standard_Deviation.Z
-###The average of the standard deviations of gyroscoptic measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 27: Time_Body_Gyroscope_Jerk_Mean.X
-###The average of the means of gyroscoptic measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 28: Time_Body_Gyroscope_Jerk_Mean.Y
-###The average of the means of gyroscoptic measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 29: Time_Body_Gyroscope_Jerk_Mean.Z
-###The average of the means of gyroscoptic measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 30: Time_Body_Gyroscope_Jerk_Standard_Deviation.X
-###The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 31: Time_Body_Gyroscope_Jerk_Standard_Deviation.Y
-###The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 32: Time_Body_Gyroscope_Jerk_Standard_Deviation.Z
-###The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 33: Time_Body_Accelerometer_Magnitude_Mean
-###The average of the means of accelerometer measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 34: Time_Body_Accelerometer_Magnitude_Standard_Deviation
-###The average of the standard deviations of accelerometer measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 35: Time_Gravity_Accelerometer_Magnitude_Mean
-###The average of the means of accelerometer measurements of a gravity measurement with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a gravity measurement with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 36: Time_Gravity_Accelerometer_Magnitude_Standard_Deviation
-###The average of the standard deviations of accelerometer measurements of a gravity measurement with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a gravity measurement with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 37: Time_Body_Accelerometer_Jerk_Magnitude_Mean
-###The average of the means of accelerometer measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 38: Time_Body_Accelerometer_Jerk_Magnitude_Standard_Deviation
-###The average of the standard deviations of accelerometer measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 39: Time_Body_Gyroscope_Magnitude_Mean
-###The average of the means of gyroscoptic measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 40: Time_Body_Gyroscope_Magnitude_Standard_Deviation
-###The average of the standard deviations of gyroscoptic measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 41: Time_Body_Gyroscope_Jerk_Magnitude_Mean
-###The average of the means of gyroscoptic measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 42: Time_Body_Gyroscope_Jerk_Magnitude_Standard_Deviation
-###The average of the standard deviations of gyroscoptic measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 43: Frequency_Body_Accelerometer_Mean.X
-###The average of the means of accelerometer measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 44: Frequency_Body_Accelerometer_Mean.Y
-###The average of the means of accelerometer measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 45: Frequency_Body_Accelerometer_Mean.Z
-###The average of the means of accelerometer measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 46: Frequency_Body_Accelerometer_Standard_Deviation.X
-###The average of the standard deviations of accelerometer measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 47: Frequency_Body_Accelerometer_Standard_Deviation.Y
-###The average of the standard deviations of accelerometer measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 48: Frequency_Body_Accelerometer_Standard_Deviation.Z
-###The average of the standard deviations of accelerometer measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 49: Frequency_Body_Accelerometer_Jerk_Mean.X
-###The average of the means of accelerometer measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 50: Frequency_Body_Accelerometer_Jerk_Mean.Y
-###The average of the means of accelerometer measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 51: Frequency_Body_Accelerometer_Jerk_Mean.Z
-###The average of the means of accelerometer measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 52: Frequency_Body_Accelerometer_Jerk_Standard_Deviation.X
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 53: Frequency_Body_Accelerometer_Jerk_Standard_Deviation.Y
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 54: Frequency_Body_Accelerometer_Jerk_Standard_Deviation.Z
-###The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body containing jerk signals on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 55: Frequency_Body_Gyroscope_Mean.X
-###The average of the means of gyroscoptic measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 56: Frequency_Body_Gyroscope_Mean.Y
-###The average of the means of gyroscoptic measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
-###Variable 57: Frequency_Body_Gyroscope_Mean.Z
+####Variable 57: Frequency_Body_Gyroscope_Mean.Z
 ###The average of the means of gyroscoptic measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 58: Frequency_Body_Gyroscope_Standard_Deviation.X
-###The average of the standard deviations of gyroscoptic measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the X axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 59: Frequency_Body_Gyroscope_Standard_Deviation.Y
-###The average of the standard deviations of gyroscoptic measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the Y axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 60: Frequency_Body_Gyroscope_Standard_Deviation.Z
-###The average of the standard deviations of gyroscoptic measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body on the Z axis.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 61: Frequency_Body_Accelerometer_Magnitude_Mean
-###The average of the means of accelerometer measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 62: Frequency_Body_Accelerometer_Magnitude_Standard_Deviation
-###The average of the standard deviations of accelerometer measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 63: Frequency_Body_Accelerometer_Jerk_Magnitude_Mean
-###The average of the means of accelerometer measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the means of accelerometer measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 64: Frequency_Body_Accelerometer_Jerk_Magnitude_Standard_Deviation
-###The average of the standard deviations of accelerometer measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+####The average of the standard deviations of accelerometer measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
 ###Variable 65: Frequency_Body_Gyroscope_Magnitude_Mean
-###The average of the means of gyroscoptic measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 66: Frequency_Body_Gyroscope_Magnitude_Standard_Deviation
-###The average of the standard deviations of gyroscoptic measurements of a body with the magnitude.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body with the magnitude.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 67: Frequency_Body_Gyroscope_Jerk_Magnitude_Mean
-###The average of the means of gyroscoptic measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the means of gyroscoptic measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ###Variable 68: Frequency_Body_Gyroscope_Jerk_Magnitude_Standard_Deviation
-###The average of the standard deviations of gyroscoptic measurements of a body with the magnitude containing jerk signals.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: radians/second
+####The average of the standard deviations of gyroscoptic measurements of a body with the magnitude containing jerk signals.
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: radians/second  
 
 ## Sources
 Codebook template:  HYPERLINK "https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41" https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41
