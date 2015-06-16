@@ -6,7 +6,6 @@ output:
   html_document:
     keep_md: yes
 ---
- 
 ## CodeBook - Project Description
 Create a tidy data set from the UCI HAR study which:
 Merges both training and test data sets.
@@ -15,35 +14,35 @@ Uses descriptive activity names to name the activies.
 Labels the data set with descriptive varible names.
 Creates a second independent tidy data set with the average of each variable for each activity and each subject.
 NOTE: This is an update of the two previous codebooks supplied by the authors (README.txt and features_info.txt).  They are included in the index at the bottom of this CodeBook.
- 
+
 ## Study design and data processing
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details.
 
 ### Download of data
-Data was downloaded from:   HYPERLINK "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Data was downloaded from:� HYPERLINK "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 ### Notes on the original data download
 ### Data Description
-Zip file contained:
-test directory
-Inertial Signals directory (not used in current project)
-subject_test.txt - 30 study subjects
-X_test.txt - 561 metrics
-y_test.txt - 6 activies
+###Zip file contained:
+###test directory
+###Inertial Signals directory (not used in current project)
+###subject_test.txt - 30 study subjects
+###X_test.txt - 561 metrics
+###y_test.txt - 6 activies
 
-train directory
-Inertial Signals directory (not used in current project)
-subject_train.txt - 30 study subjects
-X_train.txt - 561 metrics
-y_train.txt - 6 activies
+###train directory
+###Inertial Signals directory (not used in current project)
+###subject_train.txt - 30 study subjects
+###X_train.txt - 561 metrics
+###y_train.txt - 6 activies
 
 activity_labels.txt - describes the six activites
 features.txt - a list of the 561 metrics
 feature_info.txt - descriptions of the features measured (original study Codebook)
 README.txt - description of orginal study and files associated with the study.
- 
+
 ## Creating the tidy datafile
 ### Guide to create the tidy data file
 ### Data transformations
@@ -54,7 +53,7 @@ y_test and y_train data sets are merged.
 subject_test and subject_train data sets are merged.
 All test and train data sets are merged together.
 All 561 features were read into R.
-The 561 features are filtered for 33 ‘mean()’ and 33 ‘std()’ features.
+The 561 features are filtered for 33 'mean()' and 33 'std()' features.
 according to the features_info.txt:
 mean(): Mean value
 std(): Standard deviation
@@ -66,7 +65,7 @@ WALKING_DOWNSTAIRS
 SITTING
 STANDING
 LAYING
-Subject column name was updated to “Subject”.
+Subject column name was updated to 'Subject'.
 The subjects (1-30), Activities (6 Activities (eg. WALKING)), and data points (66 mean/std) were combined to create the initial tidy data set.
 Aggregate function was used to compute the averages of each varible for each activity and each subject. 
  
