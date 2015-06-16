@@ -3,16 +3,18 @@
 # Load table package needed by run_analysis.R
 library(data.table)
 
-# Check to see if the current download directory exists - if not create the directory
-if (!file.exists("./GetCleanData")) {
-        dir.create("./GetCleanData")
-}
-
-# Download and unzip the course project data files (if needed)
-if (!file.exists("./GetCleanData/UCI HAR Dataset")) {
-        fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-        download.file(fileUrl, destfile="./GetCleanData/dataset.zip", mode = "wb", method = "curl")
-        unzip("./GetCleanData/dataset.zip", exdir = "./GetCleanData")
+# Check to see if the all the necessary files exist
+if((!file.exists("./UCI HAR Dataset/activity_labels.txt")|
+            (!file.exists("./UCI HAR Dataset/test/X_test.txt"))|
+            (!file.exists("./UCI HAR Dataset/train/X_train.txt"))|
+            (!file.exists("./UCI HAR Dataset/test/y_test.txt"))|
+            (!file.exists("./UCI HAR Dataset/train/y_train.txt"))|
+            (!file.exists("./UCI HAR Dataset/test/subject_test.txt"))|
+            (!file.exists("./UCI HAR Dataset/train/subject_train.txt"))|
+            (!file.exists("UCI HAR Dataset/features.txt"))|
+            (!file.exists("UCI HAR Dataset/activity_labels.txt"))
+                                                                        )) {
+        stop("Necessary File(s) are missing - please load missing file(s)")
 }
 
 # Read in the X data sets (10299 rows (data points) containing 561 columns (measurements))
@@ -53,8 +55,18 @@ sorted_mean_standard_deviation_indices <- sort.int(mean_std_indices)
 # Filter the X_data to contain only the 66 features (33 mean and 33 std)
 X_data <- X_data[, sorted_mean_standard_deviation_indices]
 
-# Rename the X_data columns to the feature name
-colnames(X_data) <- (features[sorted_mean_standard_deviation_indices, 2])
+# Rename the X_data columns to more human readable names
+X_label <- gsub("^t", "Time_", features[sorted_mean_standard_deviation_indices, 2])
+X_label <- gsub("^f", "Frequency_", X_label)
+X_label <- gsub("-mean\\(\\)", "Mean", X_label)
+X_label <- gsub("-std\\(\\)", "Standard_Deviation", X_label)
+X_label <- gsub("Acc", "_Accelerometer_", X_label)
+X_label <- gsub("Gyro", "_Gyroscope_", X_label)
+X_label <- gsub("Mag", "Magnitude_", X_label)
+X_label <- gsub("Jerk", "Jerk_", X_label)
+X_label <- gsub("BodyBody", "_Body_", X_label)
+X_label <- gsub("__Body__", "_Body_", X_label)
+colnames(X_data) <- gsub("--", "-", X_label)
 
 # Read in the activity file (6 activities relating to the y_data)
 activity <- read.table("./UCI HAR Dataset/activity_labels.txt")
