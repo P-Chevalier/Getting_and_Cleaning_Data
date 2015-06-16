@@ -26,17 +26,17 @@ Data was downloaded from:  HYPERLINK "https://d396qusza40orc.cloudfront.net/getd
 ### Notes on the original data download
 ### Data Description
 ###Zip file contained:
-###test directory
-###Inertial Signals directory (not used in current project)
-###subject_test.txt - 30 study subjects
-###X_test.txt - 561 metrics
-###y_test.txt - 6 activies
+test directory
+Inertial Signals directory (not used in current project)
+subject_test.txt - 30 study subjects
+X_test.txt - 561 metrics
+y_test.txt - 6 activies
 
-###train directory
-###Inertial Signals directory (not used in current project)
-###subject_train.txt - 30 study subjects
-###X_train.txt - 561 metrics
-###y_train.txt - 6 activies
+train directory
+Inertial Signals directory (not used in current project)
+subject_train.txt - 30 study subjects
+X_train.txt - 561 metrics
+y_train.txt - 6 activies
 
 activity_labels.txt - describes the six activites
 features.txt - a list of the 561 metrics
