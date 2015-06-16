@@ -69,20 +69,19 @@ Subject column name was updated to 'Subject'.
 The subjects (1-30), Activities (6 Activities (eg. WALKING)), and data points (66 mean/std) were combined to create the initial tidy data set.  
 Aggregate function was used to compute the averages of each varible for each activity and each subject. 
   
-
 ## Description of the tidy_data_set_average.txt  
 The tidy_data_set_average.txt file is a data set of 180 observations of 68 variables.  
 
 ## Description of the variables in the tidy_data_set_average.txt file  
 
-###Variable 1: Subject  
-###ID of subject.  
+###Variable 1: Subject
+####ID of subject.  
 Variable Class: int  
 Unique_Values: 1-30  
 Units: subject  
 
-###Variable 2: Activity  
-###Name of Activity.  
+###Variable 2: Activity
+####Name of Activity.  
 Variable Class: chr  
 Unique_Values: Six Levels  
 Units: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING  
