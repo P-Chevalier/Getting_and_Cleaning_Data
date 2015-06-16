@@ -45,20 +45,20 @@ README.txt - description of orginal study and files associated with the study.
 
 ## Creating the tidy datafile
 ### Guide to create the tidy data file
-### Data transformations
-The data is downloaded and uncompressed.
-The data is read into R.
-X_test and X_train data sets are merged.
-y_test and y_train data sets are merged.
-subject_test and subject_train data sets are merged.
-All test and train data sets are merged together.
-All 561 features were read into R.
-The 561 features are filtered for 33 'mean()' and 33 'std()' features.
-according to the features_info.txt:
-mean(): Mean value
-std(): Standard deviation
-all other features ignored (e.g. fBodyBodyGyroJerkMag-meanFreq())
-Descriptive activity labels were substituted for activity column ids.
+### Data transformations  
+The data is downloaded and uncompressed.  
+The data is read into R.  
+X_test and X_train data sets are merged.  
+y_test and y_train data sets are merged.  
+subject_test and subject_train data sets are merged.  
+All test and train data sets are merged together.  
+All 561 features were read into R.  
+The 561 features are filtered for 33 'mean()' and 33 'std()' features.  
+according to the features_info.txt:  
+mean(): Mean value  
+std(): Standard deviation  
+all other features ignored (e.g. fBodyBodyGyroJerkMag-meanFreq())  
+Descriptive activity labels were substituted for activity column ids.  
 WALKING  
 WALKING_UPSTAIRS  
 WALKING_DOWNSTAIRS  
@@ -66,45 +66,46 @@ SITTING
 STANDING  
 LAYING  
 Subject column name was updated to 'Subject'.
-The subjects (1-30), Activities (6 Activities (eg. WALKING)), and data points (66 mean/std) were combined to create the initial tidy data set.
+The subjects (1-30), Activities (6 Activities (eg. WALKING)), and data points (66 mean/std) were combined to create the initial tidy data set.  
 Aggregate function was used to compute the averages of each varible for each activity and each subject. 
- 
-## Description of the tidy_data_set_average.txt
-The tidy_data_set_average.txt file is a data set of 180 observations of 68 variables.
+  
 
-## Description of the variables in the tidy_data_set_average.txt file
+## Description of the tidy_data_set_average.txt  
+The tidy_data_set_average.txt file is a data set of 180 observations of 68 variables.  
 
-###Variable 1: Subject
-###ID of subject.
-Variable Class: int
-Unique_Values: 1-30
-Units: subject
+## Description of the variables in the tidy_data_set_average.txt file  
 
-###Variable 2: Activity
-###Name of Activity.
-Variable Class: chr
-Unique_Values: Six Levels
-Units: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+###Variable 1: Subject  
+###ID of subject.  
+Variable Class: int  
+Unique_Values: 1-30  
+Units: subject  
 
-###Variable 3: Time_Body_Accelerometer_Mean.X
-###The average of the means of accelerometer measurements of a body on the X axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+###Variable 2: Activity  
+###Name of Activity.  
+Variable Class: chr  
+Unique_Values: Six Levels  
+Units: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING  
 
-###Variable 4: Time_Body_Accelerometer_Mean.Y
-###The average of the means of accelerometer measurements of a body on the Y axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+###Variable 3: Time_Body_Accelerometer_Mean.X  
+###The average of the means of accelerometer measurements of a body on the X axis.  
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
-###Variable 5: Time_Body_Accelerometer_Mean.Z
-###The average of the means of accelerometer measurements of a body on the Z axis.
-Variable Class: int
-Unique_Values: Features are normalized and bounded within [-1,1]
-Units: Gravitation Units 'G'
+###Variable 4: Time_Body_Accelerometer_Mean.Y  
+###The average of the means of accelerometer measurements of a body on the Y axis.  
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
 
-###Variable 6: Time_Body_Accelerometer_Standard_Deviation.X
+###Variable 5: Time_Body_Accelerometer_Mean.Z  
+###The average of the means of accelerometer measurements of a body on the Z axis.  
+Variable Class: int  
+Unique_Values: Features are normalized and bounded within [-1,1]  
+Units: Gravitation Units 'G'  
+
+###Variable 6: Time_Body_Accelerometer_Standard_Deviation.X  
 ###The average of the standard deviations of accelerometer measurements of a body on the X axis.
 Variable Class: int
 Unique_Values: Features are normalized and bounded within [-1,1]
