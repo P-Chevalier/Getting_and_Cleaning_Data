@@ -17,7 +17,7 @@ if((!file.exists("./UCI HAR Dataset/activity_labels.txt")|
         stop("Necessary File(s) are missing - please load missing file(s)")
 }
 
-# Read in the X data sets (10299 rows (data points) containing 561 columns (measurements))
+# Read in the X data sets (10299 rows containing 561 columns)
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt", header = FALSE)
 X_train <- read.table("./UCI HAR Dataset/train/X_train.txt", header = FALSE)
 
@@ -92,7 +92,7 @@ tidy_data_set_column_count <- ncol(tidy_data_set)
 # Subset the data removing the Subject and Activity from the tidy_data_set
 tds <- tidy_data_set[, 3:tidy_data_set_column_count]
 
-# Use aggregate to get the averages
+# Use the aggregate function to collapse the data for each activity and subject and then compute their averages.
 tidy_data_set_averages <- aggregate(tds, list(tidy_data_set$Subject, tidy_data_set$Activity), mean)
 
 # Rename the first column Subject
